@@ -8,7 +8,6 @@ public class Tester {
         System.out.println(matrix.findWord("daisy"));
         System.out.println(matrix.findWord("harry"));
         //"smth " was my conflict
-        //smth
         System.out.println(matrix.findWord("tom"));
         System.out.println(matrix.findWord("severus"));
         
