@@ -5,6 +5,7 @@ public class Tester {
         IncidenceMatrix matrix = new IncidenceMatrix();
         System.out.println("Number od words: " + matrix.getScannedWordsCount());
         System.out.println("Number od wordsin dictionary: " + matrix.getDictionarySize());
+        System.out.println(matrix.findWord("daisy"));
         System.out.println(matrix.findWord("harry"));
         //smth
         System.out.println(matrix.findWord("tom"));
@@ -15,7 +16,7 @@ public class Tester {
         System.out.println("Number od words: " + index.getwCounter());
         System.out.println("Number od wordsin dictionary: " + index.getSize());
         //changed
-        System.out.println(index.findWord("it may cause a conflict"));
+        System.out.println(index.findWord("it probably may  cause a conflict"));
         System.out.println(index.findWord("snape"));
         System.out.println(index.findWord("hello"));
         
