@@ -7,7 +7,6 @@ public class Tester {
         System.out.println("Number od wordsin dictionary: " + matrix.getDictionarySize());
         System.out.println(matrix.findWord("daisy"));
         System.out.println(matrix.findWord("harry"));
-        //smth else
         System.out.println(matrix.findWord("tom"));
         System.out.println(matrix.findWord("severus"));
         
