@@ -14,7 +14,8 @@ public class Tester {
         InvertedIndex index = new InvertedIndex();
         System.out.println("Number od words: " + index.getwCounter());
         System.out.println("Number od wordsin dictionary: " + index.getSize());
-        System.out.println(index.findWord("gatsby"));
+        //changed
+        System.out.println(index.findWord("it may cause a conflict"));
         System.out.println(index.findWord("snape"));
         System.out.println(index.findWord("hello"));
         
