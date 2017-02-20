@@ -8,7 +8,6 @@ public class Tester {
         //daisy
         System.out.println(matrix.findWord("daisy"));
         System.out.println(matrix.findWord("harry"));
-        //smth
         System.out.println(matrix.findWord("tom"));
         System.out.println(matrix.findWord("severus"));
         
