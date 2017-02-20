@@ -5,6 +5,7 @@ public class Tester {
         IncidenceMatrix matrix = new IncidenceMatrix();
         System.out.println("Number od words: " + matrix.getScannedWordsCount());
         System.out.println("Number od wordsin dictionary: " + matrix.getDictionarySize());
+        //daisy
         System.out.println(matrix.findWord("daisy"));
         System.out.println(matrix.findWord("harry"));
         System.out.println(matrix.findWord("tom"));
